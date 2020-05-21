@@ -1,0 +1,10 @@
+@import '../style/variables';
+
+// button
+.el-button--primary {
+  border-top: 1px solid transparent !important;
+  border-right: 1px solid $color-primary !important;
+  border-bottom: 1px solid transparent !important;
+  border-left: 1px solid $color-primary-light !important;
+  background: $background-gradient !important;
+}
